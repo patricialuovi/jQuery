@@ -39,7 +39,6 @@ Käytin seuraavia teknologioita: `html`, `css` ja `jquery`
 jQuery-sovellus on valmis käytettäväksi
 
 ## Credits
-List of contriubutors and sources you used during the project. Also mention if you used ChatGPT or other AI tools when coding and explain how did you benefit from them.
 - [W3Schools](https://www.w3schools.com/jquery/)
 - [ChatGPT](https://chat.openai.com/)
 

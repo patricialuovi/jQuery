@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elokuvainfoa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tietoa elokuvista</h1>
+
+    <label for="theatreSelect">Valitse teatteri:</label>
+    <select id="theatreSelect"></select>
+
+    <input type="text" id="searchInput" placeholder="Etsi elokuvaa OMDb:stä" />
+<p id="searchHint">🔎 Vinkki: Kirjoita elokuvan nimi ISOILLA KIRJAIMILLA (esim. TITANIC)</p>
+<div id="searchResult"></div>
+
+
+    <div id="movies"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
